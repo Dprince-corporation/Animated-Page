@@ -14,6 +14,15 @@ body {
   height: 100vh;
   overflow-x: hidden;
 }
+a{
+  color: white;
+  z-index: 1000;
+}
+
+i{
+  color: white;
+}
+
 section {
   width: 100vw;
   height: 100vh;
@@ -23,11 +32,11 @@ section {
   justify-content: flex-start;
   align-items: center;
   overflow-x: hidden;
-  background: url("images/bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("images/bg.jpg") center no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-color: #4f3af4;
+  opacity: .6;
 }
 header {
   position: fixed;
@@ -133,6 +142,7 @@ header ul li a.back:hover {
 }
 .btn_two {
   border: 2px solid var(--textcolor);
+  color: white !important;
 }
 .social {
   position: absolute;
